@@ -1,0 +1,44 @@
+body{
+    background: #2d2d42ce;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+    margin: .5em;
+    border: 2px solid #000000;
+    display: inline-block;
+    text-align: center;
+    font-size: 2em;
+}
+
+.box--color{
+    color: blue;
+    background-color: saddlebrown;
+}
+
+.box--rgb{
+    color: rgb(0, 255, 98);
+    background-color: rgb(16, 129, 109);
+}
+
+.box--rgba{
+    color: hsla(59, 79%, 39%, 0.795);
+    background-color: rgba(223, 84, 188, 0.514);
+}
+
+.box--hexa{
+    color: #c02525d2;
+    background-color: #7c9652;
+}
+
+.box--hsl{
+    color: hsl(9, 100%, 70%); 
+    background-color: hsl(0, 20%, 10%);
+}
+
+.box--hsla{
+    color: hsla(118, 100%, 70%, 0.527); 
+    background-color: rgba(13, 0, 255, 0.527);
+}

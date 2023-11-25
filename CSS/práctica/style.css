@@ -1,0 +1,91 @@
+body{
+    font-family: sans-serif;
+    background-image: radial-gradient(circle, rgb(131, 118, 141), rgb(56, 1, 145));
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh;
+}
+
+.card__logo{
+    max-width: 80%;
+}
+
+.card{
+    background-color: rgb(66, 66, 66);
+    width: 80%;
+    height: 750px;
+    display: flex;
+    margin: 2em auto;
+}
+.card__left{
+    width: 20%;
+    display: flex;
+    align-items: flex-start;
+    background-color: rgb(39, 39, 39);
+    justify-content: center;
+    padding: .5rem 0;
+}
+.card__right{
+    width: 80%;
+    padding: 0 1rem;
+
+}
+.card__title{
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550px;
+}
+.form__field{
+    display: flex;
+    flex-direction: column;
+}
+.form__name{
+    display: flex;
+    justify-content: space-around;
+}
+.form__label{
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+.form__input,
+.form__textarea{
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+.form__input:hover{
+    border-bottom: 1px solid rgb(172, 172, 172);
+}
+.form__textarea:hover{
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: none;
+}
+.form__textarea{
+    resize: none;
+    border: 1px solid #eee;
+    flex-basis: 100px;
+}
+.form__submit{
+    width: 40%;
+    height: 10%;
+    background: rgb(42, 156, 221);
+    border: none;
+    padding: .8rem;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: inherit;
+    position: relative;
+}
+.form__submit:hover{
+    background-color: rgb(30, 124, 179);
+}
+.form__submit:active{
+    transform: scale(.7);
+}

@@ -1,0 +1,16 @@
+/* body{
+    font-family: 'Amiri', serif;
+} */
+.title{
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.paragraph{
+    font-family: 'myfont', sans-serif;
+}
+
+@font-face{
+    src: url(/GoogleFonts/assets/fonts/RobotoCondensed-Italic.ttf);
+    font-family: 'myfont';
+}

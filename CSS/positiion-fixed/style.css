@@ -1,0 +1,17 @@
+body{
+    padding-top: 5em;
+}
+
+.menu{
+    background-color: blueviolet;
+    padding: .5em;
+    text-align: center;
+    font-size: 2em;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    width: 100%;
+}
+.title{
+    margin: 0;
+}

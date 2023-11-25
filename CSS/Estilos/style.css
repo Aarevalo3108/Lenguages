@@ -1,0 +1,89 @@
+/* Selector de etiqueta */
+/* p{
+    color: #9b6b04;
+}
+h1{
+    color: #0000ff;
+} */
+
+/* Selectores de clase */
+.title{
+    color: #8a2be2;
+}
+.text{
+    color: rgb(42, 165, 89);
+}
+
+/* Selector por identificador */
+#title{
+    color: #ff7f50;
+}
+#text{
+    color: #dc143c;
+}
+
+/* Selectores universales (para resetear la página */
+/* *{
+    color: red;
+} */
+
+/* Selectores de atributo. selecciona los elementos que tiene el atributo  */
+/* [href]{
+    color: green;
+} */
+
+/* Selecciona los que tienen ese atributo y ese valor */ 
+/* [href="a"]{
+    color: rgb(223, 7, 7);
+} */
+
+/* Selecciona los que tienen ese atributo con ese valor al menos una vez */
+[class~="verde"]{
+    color: #ec4359;
+}
+
+/* Selecciona ese atributo por clase únicamente con ese valor  */
+[class|="verde"]{
+    color: rgb(3, 87, 31);
+}
+
+/* Selecciona el atributo que empiece por ese valor */
+[class^="rojo"]{
+    color: rgb(144, 248, 9);
+}
+
+/* Selecciona el atributo que termina por ese valor */
+[class$="rojo"]{
+    color: rgb(21, 157, 161);
+}
+
+/* Selecciona el atributo que contenga ese valor, independientemente de dónde esté */
+[class*="rojo"]{
+    color: rgb(35, 21, 161);
+}
+
+
+/* Selectores combinadores */
+/* Selector de hermano adyacente (al hermano posterior) */
+h1+h2{
+    color: red;
+}
+h2+h2{
+    color: blue;
+}
+
+/* Selector de hermano géneral (a todos los hermanos posteriores)*/
+h1~h3{
+    color: green;
+}
+
+/* Selectores descendentes. todos los hijos contenidos */
+div span{
+    color: violet;
+}
+
+/* Selector de hijo directo. todos los hijos directos */
+p > span{
+    color: blue;
+}
+

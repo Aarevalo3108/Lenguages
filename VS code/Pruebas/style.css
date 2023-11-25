@@ -1,0 +1,40 @@
+.container, .container-2{
+    display: grid;
+    width: 500px;
+}
+.img-1,.img-2{
+    width: 20%;
+    display: flex;
+}
+.hidden{
+    visibility: hidden;
+    position: absolute;
+}
+.hidden::selection{
+    visibility: initial;
+    position: initial;
+}
+.button{
+    width: 30px;
+    border-radius: 100%;
+    background-color: orange;
+}
+.imagen{
+    
+}
+.title{
+    color: rgb(224, 80, 140);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: .2rem 0;
+}
+.subtitle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: .2rem 0;
+}
+.container-2{
+    text-align: right;
+    align-items: ;
+}
+.text{
+    
+}

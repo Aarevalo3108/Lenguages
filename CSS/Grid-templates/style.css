@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    font-family: sans-serif;
+    background: gray;
+    color: white;
+    padding: .5rem;
+}
+.main{
+    display: grid;
+    grid-template-columns: 150px repeat(2, 1fr);
+    grid-template-areas: 
+        "header header header"
+        "aside article article"
+        "footer footer footer";
+}
+.header,
+.footer{
+    text-align: center;
+    padding: 2rem 0;
+    background: chocolate;
+    text-transform: uppercase;
+}
+.header{
+    grid-area: header;
+}
+.footer{
+    grid-area: footer;
+}
+.aside{
+    text-align: center;
+    grid-area: aside;
+    background: rgb(210, 30, 186);
+    text-transform: uppercase;
+}
+.article{
+    grid-area: article;
+    background: blue;
+    padding: 2rem;
+}

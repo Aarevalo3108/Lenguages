@@ -1,0 +1,11 @@
+.inline{
+    background-color: chartreuse;
+    display: inline-block;
+    height: 100px;
+    margin-bottom: 3em;
+    /* display: none; */
+    
+}
+.block{
+    background-color: crimson;
+}

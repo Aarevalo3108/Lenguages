@@ -1,0 +1,27 @@
+h1{
+    background-color: lightsalmon;
+    height: 150px;
+    width: 100px;
+}
+h2{
+    background-color: rgb(64, 64, 226);
+    width: 50px;
+}
+a{
+    background-color: darkgray;
+}
+
+.box-1{
+    width: 100px;
+    height: 100px;
+    background-color: lime;
+    padding: 10px;
+     border: 10px solid rgb(255, 0, 0); /* cuenta para el tamaño total */
+    margin: 20px; 
+    outline: 10px solid blue; /* no cuenta para el tamaño total */
+}
+.box-2{
+    width: 100px;
+    height: 100px;
+    background-color: lightslategrey;
+}

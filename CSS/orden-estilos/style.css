@@ -1,0 +1,35 @@
+/* Orden Jerárquico
+    Etiqueta (p): 1
+    Clase (.parrafo): 10
+    ID (#parrafo): 100
+    Estilos en línea (style): 1000
+    !important: gana todo
+*/
+
+#parrafo{
+    color: blueviolet;
+}
+
+.parrafo{
+    color: rgb(161, 57, 57);
+}
+
+a{
+    color: inherit;
+}
+
+p{
+    color: green;
+}
+/* Más importante debido a la cascada */
+p{
+    color: rgb(0, 23, 128);
+}
+/*  No recomendable, denota simpleza
+p{
+    color: green !important;
+}
+.parrafo-2{
+    color: black !important;
+}
+*/

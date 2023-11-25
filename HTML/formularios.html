@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+<h1>Formularios.</h1>
+    <form>
+        <h2>Formularios básicos y botones.</h2>
+        <label for="name">Nombre</label>
+        <input id="name"> 
+        <!-- Otra forma de poner el formulario (no recomendado para dar estilos con CSS) -->
+        <!-- <label> -->
+            <!-- Nombre -->
+            <!-- <input> -->
+        <!-- </label> -->
+        <button>Enviar formulario</button>
+    </form>
+<br>
+    <!-- Tipos de input -->
+
+    <form>
+        <input>
+        <!-- <input type="button" value="Enviar input"> (Para JavaScript)-->
+        <h2>Botones interactivos.</h2>
+        <input type="submit" value="Enviar input">
+        <button>Enviar button</button>
+    </form>
+<br>
+    <form>
+            <!-- Para cualquier navegador -->
+            <h2>Para cualquier navegador.</h2>
+            <input type="date">
+            <input type="datetime-local">
+
+            <!-- Para Firefox -->
+            <h2>Para Firefox.</h2>
+            <input type="date">
+            <input type="time">
+            <!-- <input type="month"><br> -->
+            <!-- <input type="week"> -->
+    <br><br>
+            <!-- Input para móviles -->
+            <h2>Inputs para móviles.</h2>
+        <div>
+                <label> Search
+                    <input type="search">
+                </label>
+        </div>
+        <div>
+                <label> telephone
+                    <input type="tel">
+                </label>
+        </div>
+        <div>
+                <label> email
+                    <input type="email">
+                </label>
+        </div>
+        <div>
+                <label> password
+                    <input type="password">
+                </label>
+        </div>
+        <div>
+                <label> url
+                    <input type="url">
+                </label>
+        </div>
+    </form>
+    <!-- Miscelaneos. -->
+    <h2>Miscelaneos.</h2>
+    <form>
+        <input type="color">
+        <input type="number">
+        <input type="range" step="5" min="0" max="20">
+        <input type="reset">
+        <input type="text">
+        <input type="hidden">
+    </form>
+    <!-- Inputs de selección. -->
+    <h2>Elementos selecionables de tipo radio:</h2>
+    <form>
+        <h2>Género.</h2>
+        <label>Masculino
+            <input type="radio" name="gender" value="masculino" checked>
+        </label>
+        <label>Femenino
+            <input type="radio" name="gender" value="femenino">
+        </label>
+        <label>Otro
+            <input type="radio" name="gender" value="otro">
+        </label>
+    </form>
+    <h2>Elementos seleccionables de tipo checkbox:</h2>
+    <form>
+        <label>
+            <input type="checkbox" name="lenguages" value="html" checked>
+            HTML
+        </label>
+        <label>
+            <input type="checkbox" name="lenguages" value="css">
+            CSS
+        </label>
+        <label>
+            <input type="checkbox" name="lenguages" value="js">
+            JavaScript
+        </label>
+    </form>
+    <h2>Elementos seleccionables de tipo</h2>
+    <form>
+        <select name="lenguajes"> <!-- multiple para seleccionar varias -->
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JavaScript</option>
+        </select>
+        <h3>Ejemplos de select ordenados.</h3>
+        <h3>Mascotas:</h3>
+        <select name="mascotas">
+            <optgroup label="4 patas">
+                <option value="perro">Perro</option>
+                <option value="gato">Gato</option>
+                <option value="hamster">Hamster</option>
+                <option value="conejo">Conejo</option>
+            </optgroup>
+            <optgroup label="Aves">
+                <option value="loro">Loro</option>
+                <option value="canario">Canario</option>
+            </optgroup>
+            <optgroup label="Otras">
+                <option value="serpiente">Serpiente</option>
+                <option value="tarantula">Tarántula</option>
+            </optgroup>
+        </select>
+    </form>
+    <h2>Otros elementos selecionables</h2>
+    <form>
+        <input type="list" list="pets">
+        <datalist id="pets">
+            <option value="perro"></option>
+            <option value="gato"></option>
+            <option value="hamster"></option>
+            <option value="conejo"></option>
+            <option value="loro"></option>
+            <option value="canario"></option>
+            <option value="serpiente"></option>
+            <option value="tarantula"></option>
+        </datalist>
+    </form>
+    <h2>Más elementos selecionables</h2>
+    <form>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <div>
+                <label for="name">Nombre</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="surname">Apellido</label>
+                <input type="text" id="surname">
+            </div>
+        </fieldset>
+        <!-- <input type="file"> -->
+        <label for="fuel">Combustible</label>
+        <meter id="fuel" min="0" max="100" value="50" low="30" high="75" optimum="50"></meter><br>
+
+        <label for="task">Tarea 1</label>
+        <progress id="task" max="100" value="10"></progress>
+        <div>
+            <label for="message">Mensaje</label>
+            <textarea name="" id="message" cols="" rows="10"></textarea>
+        </div>
+    </form>
+    <h2>Atributos de los formularios</h2>
+    <form>
+        <input type="text" placeholder="Introduce tu nombre" required>
+        <input type="text" value="Hola" readonly>
+        <input type="text" value="Hola" disabled>
+        <select name="numbers">
+            <option value="one">One</option>
+            <option value="two" selected>Two</option>
+        </select>
+        <input type="number" min="5" max="10">
+        <input type="text" minlength="3" maxlength="10" autofocus>
+        <input type="submit">
+    </form>
+    <h2>Envío del formulario.</h2>
+    <form action="enviar.html" method="GET">
+        <div>
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <label for="surname">Apellido</label>
+        <input type="text" id="surname" name="surname">
+        <input type="submit">
+    </form>
+</body>
+</html>

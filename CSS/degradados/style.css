@@ -1,0 +1,13 @@
+.box{
+    margin: 2em auto;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    /* background-image: linear-gradient(to top right ,rgb(255, 251, 0), red,blue); */
+    /* background-image: linear-gradient(rgb(255, 255, 255), rgb(0,0,0)); */
+    /* background-image: linear-gradient(to right bottom, red 60px, blue 40px); */
+    /* background-image: radial-gradient(circle 150px at top, transparent 50%, blue 50%); */
+    /* background-image: radial-gradient(ellipse 100px 50px, blue, rgb(202, 102, 102)); */
+    background-image: repeating-radial-gradient(ellipse 10px 20px, red 30px, blue 70px);
+    /* background-size: 25px 25px; */
+}

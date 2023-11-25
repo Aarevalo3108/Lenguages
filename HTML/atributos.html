@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .parrafo-1{
+            color: red
+        }
+    </style>
+</head>
+<body>
+    <!-- Clase, se utiliza para dar estilos a través de CSS -->
+    <p class="parrafo-1">Clases</p>
+    <!-- Identificador, único y se utiliza para JS y navegación de anclas -->
+    <p id="parrafo">Identificador a través de un ID</p>
+    <!-- Titulo, muestra una pequeña deficion del elemento al que pertenece-->
+    <p title="Este es un ejemplo del atributo title">Titulo con tooltip</p>
+    <!-- Data, guardar valor de etiqueta -->
+    <p id="parrafo-2" data-ejemplo="Datos de ejemplo">Datos pasados en la etiqueta</p>
+<!-- IMPORTANTE, sobre JavaScript -->
+    <script>
+        const p = document.getElementById("parrafo")
+        const p2 = document.getElementById("parrafo-2")
+
+        console.log(p.textContent)
+        console.log(p2.dataset.ejemplo)
+
+    </script>
+</body>
+</html>

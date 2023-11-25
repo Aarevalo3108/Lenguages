@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principio de estilos</title>
+    <!-- Forma de insertar CSS en la cabecera, no recomendable salvo que tengamos una sola página .
+    <style>
+        p{
+            color: brown;
+        }
+    </style> -->
+
+    <!-- Estilo en línea. no recomendado para estilos estáticos, solo para estilos en tiempo real con JavaScript.
+     <h1 style="color: chartreuse;">Soy un encabezado principal</h1> -->
+
+    <!-- trayendo una hoja de estilos externa, la forma más recomendada para poder reutilizar el código.
+     <link rel="stylesheet" href="styles.css"> -->
+
+    <!-- Importanto con la regla @import, ésta forma no se recomienda para evitar posibles fallos.
+         <style>
+         @import url(styles.css);
+     </style> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/normalize.css">
+</head>
+
+<body>
+    <h1>Soy un encabezado principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto amet quam quasi eaque eveniet reiciendis
+        dignissimos quidem nihil ad excepturi, laudantium eius unde voluptas itaque temporibus autem explicabo omnis
+        aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, sequi sed dicta architecto iusto iste
+        amet doloremque suscipit earum quam dolorem tempore, ipsum alias cumque exercitationem officia ut dolor quaerat.
+    </p>
+
+    <h1 class="title">Soy un encabezado principal</h1>
+    <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto amet quam quasi eaque eveniet
+        reiciendis
+        dignissimos quidem nihil ad excepturi, laudantium eius unde voluptas itaque temporibus autem explicabo omnis
+        aut!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, sequi sed dicta architecto iusto iste amet
+        doloremque suscipit earum quam dolorem tempore, ipsum alias cumque exercitationem officia ut dolor quaerat.</p>
+
+    <h1 id="title">Soy un encabezado principal</h1>
+    <p id="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto amet quam quasi eaque eveniet
+        reiciendis
+        dignissimos quidem nihil ad excepturi, laudantium eius unde voluptas itaque temporibus autem explicabo omnis
+        aut!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, sequi sed dicta architecto iusto iste amet
+        doloremque suscipit earum quam dolorem tempore, ipsum alias cumque exercitationem officia ut dolor quaerat.</p>
+    <a class="verde rojo" href="e">Enlace 1 verde rojo.</a>
+    <a class="verde" href="e">Enlace 2 rojo.</a>
+    <a class="rojo" href="a">Enlace 3 verde.</a>
+    <a class="rojo verde" href="a">Enlace 4 verde rojo.</a>
+
+    <h1>Título</h1>
+    <h2>Subtítulo</h2>
+    <h2>Otro subtítulo</h2>
+    <h3>Otro subtítulo</h3>
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore reiciendis eos dolorum necessitatibus nemo quaerat. <span>SOY UN SPAN</span> Aperiam minus recusandae maiores corrupti, similique sunt consectetur sint illo dolor, natus rem ex fugit!</p>
+        <span>SOY OTRO SPAN</span>
+    </div>
+    
+</body>
+
+</html>

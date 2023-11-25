@@ -1,0 +1,41 @@
+/* .list{
+    list-style-type: armenian;
+} */
+
+/* .list{
+    list-style-image: url(/Listas/assets/images/fuego.svg);
+} */
+
+/* .list{
+    list-style-type: none;
+} */
+.list{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.list__item{
+    background: olive;
+}
+/* .list__item::before{
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-image: url(/Listas/assets/images/camisa.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-right: 1em;
+} */
+
+.list__item{
+    /* background-image: url(/Listas/assets/images/camisa.png);
+    background-position: 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 1.5em;
+    margin: .5em; */
+    /* background: url(/Listas/assets/images/camisa.png) 0 0 / comtain no-repeat; */
+}

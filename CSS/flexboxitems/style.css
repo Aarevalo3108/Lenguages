@@ -1,0 +1,30 @@
+body{
+    padding: 1em;
+    background-color: rgb(78, 78, 78);
+}
+
+.flex-container{
+    background-color: salmon;
+    height: 300px;
+    display: flex;
+}
+.flex-item{
+    display: flex;
+    color: white;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: seagreen;
+}
+.flex-item:nth-child(2){
+    background-color: tomato;
+    flex-grow: 1;
+}
+.flex-item:nth-child(3){
+    background-color: turquoise;
+    flex-grow: 3;
+}
+.flex-item:nth-child(4){
+    background-color: rgb(206, 255, 71);
+}

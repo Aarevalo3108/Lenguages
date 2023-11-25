@@ -1,0 +1,39 @@
+.banner{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 10%;
+}
+.header{
+    background-color: rgb(228, 195, 158);
+    border: 5px solid rgb(255, 255, 255);
+    padding: 20px;
+    padding-top: 50px;  
+    text-align: center;
+}
+.header-title{
+    font-size: .9em;
+}
+.header-subtitle{
+    font-size: .7em;
+}
+.menu-article{
+    text-decoration: none;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: .3em;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: lightcoral;
+}
+.menu-article:hover{
+    border: 1px solid;
+    border-radius: 10px;
+}
+.menu-article:active{
+    transform: scale(0.9);
+    color: blue;
+    border-color: blue;
+}

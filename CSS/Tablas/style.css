@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+/* .table{
+    table-layout: fixed;
+    width: 100%;
+} */
+
+[class^="table_"]{
+    border: 1px solid black;
+    border-spacing: 10px;
+}
+
+.table{
+    
+    empty-cells: hide;
+}
+
+.table__data{
+    background: rgb(140, 174, 175);
+}
+
+.table-container{
+    overflow-x: auto;
+}

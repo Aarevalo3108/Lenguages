@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: radial-gradient(circle, green, purple, blue);
+    background-repeat: no-repeat;
+    color: #000000;
+}
+
+.grid-container{
+    background-color: #ffffff;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.grid-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+}
+.nested{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+}

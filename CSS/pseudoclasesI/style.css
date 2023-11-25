@@ -1,0 +1,72 @@
+body{
+    padding-top: 2em;
+}
+.link:link{
+    color: red;
+}
+.link:visited{
+    color: saddlebrown;
+}
+.link:active{
+    color: slateblue;
+    background-color: slategrey;
+}
+
+.title:hover{
+    color: salmon;
+}
+
+.button{
+    text-decoration: none;
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 100px;
+    background-color: red;
+    padding: 1.5em;
+    border-radius: 10px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.button:hover{
+    color: red;
+    background: white;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.button:active{
+    transform: scale(0.9);
+}
+.input:focus{
+    background: green;
+    border-color: hotpink;
+}
+.text{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.text:target{
+    padding-top: 75px;
+}
+.menu{
+    background: hotpink;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.span{
+    display: block;
+}
+.span:lang(en){
+    color: red;
+}
+.span:lang(es){
+    color: royalblue;
+}
